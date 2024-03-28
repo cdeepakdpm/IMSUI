@@ -87,7 +87,7 @@ body {
 .login {
 	width: 320px;
 	padding: 30px;
-	padding-top: 156px;
+	padding-top: 6px;
 }
 
 .login__field {
@@ -150,6 +150,13 @@ body {
 	color: #7875B5;
 }
 
+/* Inside your CSS file, e.g., app.component.css */
+img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add margin around the image */
+  }
+  
 .social-login {	
 	position: absolute;
 	height: 140px;
